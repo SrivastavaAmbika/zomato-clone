@@ -14,7 +14,7 @@ const Header = () => {
                     <div className="location-wrap">
                         <div className="location-icon">
                         <i class="fi fi-rr-marker loc-icon location-icon-color"></i>
-                        <div>Delhi</div>
+                        <div>Lucknow</div>
                         </div>
                         {/* <div className="location-drop down-icon"> */}
                         <i class="fi fi-rr-caret-down loc-icon"></i>
