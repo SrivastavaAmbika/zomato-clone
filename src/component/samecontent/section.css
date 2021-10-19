@@ -1,0 +1,48 @@
+.absoulteCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab_item{
+    cursor: pointer;
+}
+.tab-option{
+    box-shadow: rgb(232, 232, 232) 0px -0.5px 0px inset;
+}
+.tab-wrap{
+    display: flex;
+}
+.tab_item{
+    margin-right: 20px;
+    padding: 12px 12px 20px 12px;
+}
+.tab_name{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10px;
+   color: rgb(105, 105, 105);
+   display: inline;
+   clear: both;
+   overflow: hidden;
+    white-space: nowrap;;
+    
+}
+
+.tab_image-contain{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    
+}
+.tab_image{
+    height: 30px;
+    width: 30px;
+    
+}
+.active-Tab{
+border-bottom: 2px solid #FF7E8B;
+
+}
+.active-Tab .tab_name{
+    color: #FF7E8B;
+}

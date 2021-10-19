@@ -1,0 +1,143 @@
+.explore-card{
+    margin: 12px 0px 24px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid transparent ;
+}
+.explore-card-cover{
+    height: 240px;
+    width: 328px;
+    border-radius: 15px;
+    position: relative;
+}
+.expore-card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.off-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delivery-time{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0.8;
+    background-color:#ffffffcc;
+    backdrop-filter: blur(4px);
+    font-weight: 600;
+    font-size: 12px;
+    padding: 2px 5px 3px;
+    border-radius: 4px;
+}
+.pro-off{
+    background-color: #d92662;
+    position: absolute;
+    bottom: 40px;
+    font-size: 14px;
+    padding: 0px 6px;
+    color: #ffffffcc;
+    border-radius: 0px 2px 0px 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 18px;
+    white-space: nowrap;
+    font-weight: 500;
+}
+.discount{
+    background-color: #256fef;
+    left: 0px;
+    position: absolute;
+    bottom: 14px;
+    font-size: 14px;
+    padding: 0px 6px;
+    color: #ffffffcc;
+    border-radius: 0px 2px 0px 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 18px;
+    white-space: nowrap;
+    font-weight: 500;
+}
+.gold-off{
+    background-color: #d92662;
+    left: 0px;
+    position: absolute;
+    bottom: 14px;
+    font-size: 14px;
+    padding: 0px 6px;
+    color: #ffffffcc;
+    border-radius: 0px 2px 0px 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 18px;
+    white-space: nowrap;
+    font-weight: 500;   
+}
+.res-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px 6px;
+}
+.res-name{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    font-size: 22px;
+    color: #1c1c1c;
+}
+.res-rating{
+    padding: 0px 8px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    height: 24px;
+    border-radius: 6px;
+    background-color: #24963F;
+}
+.res-rating i{
+    font-size: 10px;
+    margin-left: 2px;
+}
+.res-cuisine{
+    max-width: 56%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+
+}
+.res-cuisine-tag{
+    margin-right: 4px;
+    color: #696969;
+}
+.approx-price{
+    font-size: 16px;
+    color: #696969;
+}
+.explore-bottom{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+.res-bottom-text{
+    font-size: 14px;
+    color: #696969;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 8px;
+}
+.card-seprator{
+    height: 1px;
+    margin: 10px 0px 5px;
+    background-color: #e8e8e8;
+}
+.explore-card:hover{
+    background-color: white;
+    border: 1px solid  rgb(232, 232, 232);
+}

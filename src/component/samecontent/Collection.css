@@ -1,0 +1,26 @@
+.Collection-cover{
+    height: 270px;
+    width: 300px;
+    background-color: #ffffff;
+     box-shadow: rgb(0 0 0 / 8%) 0px 3px 12px;
+     border-radius: 8px;
+}
+.Collection-cover-image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+.Collection-cover-title{
+    color: rgb(54, 54, 54);
+    font-size: 2rem;
+    line-height: 3.2rem;
+    font-weight: 500;
+    text-align: left;
+    margin: 0.6rem 0px 0px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}

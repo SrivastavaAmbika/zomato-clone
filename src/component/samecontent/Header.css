@@ -1,0 +1,98 @@
+.logo{
+    height: 27px;
+    max-width: 140px;
+    margin-right: 24px;
+    margin-top: 30px;
+}
+.header-item{
+    display: flex;
+    margin-bottom: 12px;
+    top: 20px;
+    }
+.loc-icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location-icon{
+    display: flex;
+    
+    color: #828282;
+    align-items: center;
+    justify-content: center;
+}
+.location-icon-color{
+    color: rgb(239, 79, 95);
+    font-size: 20px;
+    margin-right: 8px;
+}
+.header-right
+{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+.header-location{
+    margin-top: 20px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 3.5rem;
+    background: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 70%;
+}
+.location-wrap{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0px 10px;
+    
+}
+
+.seperator{
+    height: 20px;
+    border: 0.5px solid;
+    color: #828282;
+}
+.searchbar{
+display: flex;
+flex: 2;
+
+}
+.searchbarA{
+   font-size: 20px;
+   color: #828282; 
+   margin: 0px 12px;
+}
+.searchinput{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 80%;
+}
+.profile-wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    align-items: center;
+    margin-top: 30px;
+}
+.profile-pic{
+    width: 30px;
+    height: 30px;
+}
+.profile-name{
+    font-size: 16px;
+    font-weight: 600;
+}
+.drop-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

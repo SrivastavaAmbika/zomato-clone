@@ -1,0 +1,24 @@
+.brand-title-name{
+    font-size: 30px;
+    color: #1c1c1c;
+    margin-bottom: 32px;
+    font-weight: 600;
+}
+.top-brand{
+    padding-top: 30px;
+
+}
+.cover{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: linear-gradient(to right, rgb(248, 248, 248) 0%, rgb(255, 255, 255) 10%, rgb(248, 248, 248) 40%, rgb(248, 248, 248) 100%) no-repeat rgb(248, 248, 248);
+     box-shadow: rgb(0 0 0 / 8%) 0px 3px 12px;
+     border: 0.5px solid rgb(232, 232, 232);
+}
+.brand-image{
+    height: 100%;
+    border: inherit;
+    width: 100%;
+    object-fit: cover;
+}

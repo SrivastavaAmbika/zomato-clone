@@ -1,0 +1,66 @@
+.caret-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collection-wraper{
+    background-color: #f8f8f8;
+}
+.collection{
+    padding: 15px 0px 40px ;
+}
+.collection-subtitle-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.collection-subtitle-title{
+    color: #363636;
+    font-size: 18px;
+}
+.collection-location{
+    color: #ff7E8B;
+    display: flex;
+}
+.collection-cover{
+    height: 320px;
+    width: 310px;
+    margin-right: 20px;
+    position: relative;
+    border-radius: 6px;
+}
+.collection-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.gradient{
+    background: linear-gradient(
+0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%);
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+border-radius: 6px;
+}
+.collection-card-title{
+    position: absolute;
+    left: 16px;
+    bottom: 36px;
+    color: white;
+    font-size: 18px;
+}
+.collection-card-subtitle{
+    display: flex;
+    color: white;
+    position: absolute;
+    left: 16px;
+    bottom: 5px;
+    font-size: 14px ;
+}
+.collection-caret{
+    display: flex;
+}

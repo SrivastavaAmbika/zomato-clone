@@ -1,0 +1,18 @@
+.deliverycollection{
+    background-color: #f8f8f8;
+    width: 100%;
+    padding: 40px 0px;
+}
+.deliveryContent{
+    
+}
+.collection-title{
+    font-size: 30px;
+    color: #1c1c1c;
+    margin-bottom: 32px;
+    font-weight: 600;
+}
+.slick-next::before,
+.slick-prev::before{
+    color: gray;
+}
